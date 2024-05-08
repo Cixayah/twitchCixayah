@@ -114,6 +114,9 @@ body * {
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(
+    4px
+  ); /* Define a propriedade 'backdrop-filter' para compatibilidade */
   border-radius: 9999px;
 }
 
