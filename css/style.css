@@ -178,6 +178,7 @@ ul li a:hover {
 footer {
   padding: 5px 0;
   text-align: center;
+  font-style: italic;
 }
 
 /* Media queries */
